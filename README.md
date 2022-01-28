@@ -1,9 +1,10 @@
 illuminate SG
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+//One or two paragraphs providing an overview of your project. Tell us about your project.
+Essentially, this part is your sales pitch.//
 
-Essentially, this part is your sales pitch.
- 
+illuminate SG is a amified website which anybody can access and use freely. We aim to improve tourism in Singpapore by allowing anyone, Singaporean or not, to rediscover the city they may think they already know inside out. We have 2 firm beliefs which bring illuminate SG to life - that EVERYONE can help tourism in Singapore and that tourism is merely getting to know the city better, from the smallest of shops to the biggest of attractions.
+
 ## Design Process
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
