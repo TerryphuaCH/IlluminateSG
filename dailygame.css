@@ -91,64 +91,20 @@ nav .logo {
     }
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 60%;
+}
+
 .footer {
-   position: static;
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 2%;
+   height: 5%;
    background-color: #031D33;
    color: white;
    text-align: center;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-#section1 {
-  height: 600px;
-  background-color: #E9C1B6;
-  position: center;
-  text-align: center;
-  line-height: 240%;
-  color: white;
-  font-family: Arial;
-}
-
-#section2 {
-  height: 600px;
-  background-color: #AF9A9A;
-  position: center;
-  text-align: center;
-  line-height: 240%;
-  color: white;
-  font-family: Arial;
-}
-
-#section3 {
-  height: 600px;
-  background-color: #E9C1B6;
-  position: center;
-  text-align: center;
-  line-height: 240%;
-  color: white;
-  font-family: Arial;
-}
-
-
-#section4 {
-  height: 600px;
-  background-color: #AF9A9A;
-  position: center;
-  text-align: center;
-  line-height: 240%;
-  color: white;
-  font-family: Arial;
-}
-
-h1 {
-  text-align: center;
-  height: -30%;
-  text-decoration: underline;
 }

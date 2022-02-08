@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Spin!</title>
+    <link rel="stylesheet" href="./dailygame.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+
+  <!--- Start of Navbar --->
+  <nav>
+    <div style="font-family:'Perpetua Titling MT'" class="logo"><h1>IlluminateSG</h1></div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul style="font-family:'Perpetua Titling MT'" class="mainMenu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="play.html">Play</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="forum.html">FORUM</a></li>
+      <div class="closeMenu"><i class="fa fa-times"></i></div>
+      <span class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+          </span>
+      </ul>
+    </nav>
+<!--- End of Navbar --->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<style>
+  .popup {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 280px;
+  left: 50%;
+  margin-left: -150px;
+  height: 120px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  z-index: 20;
+}
+
+#popup1 {
+  -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup2:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#popup2:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.popup a,
+.popup a:visited {
+  color: #1abc9c;
+}
+
+p {
+	margin: 1em 0;
+}
+
+p+p+p {
+	font-size: 60%;
+}
+
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  
+}
+
+</style>
+
+<script src="embed.js"></script>
+<script>
+  datas = {
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+  };
+</script>
+
+
+
+<div id="datas" style="float: center" >
+<ul></div>
+
+<div id="wheel">
+  <canvas id="canvas" width="1000" height="600"></canvas>
+</div>
+
+<div id="stats">
+  <div id="counter"></div>
+</div>
+
+
+
+<div class="popup" id="popup2">
+  <p>Congrats! <br>You have won </p>
+ 
+  <div id="container">
+    <div>  <a href="#" onclick="alert('Come back tomrorow!')">Try again!</a>
+    </div>
+    <div></div>
+    <div>  <a href="https://www.google.com/" onclick='document.getElementById("popup2").style.display ="block";' style="float: center" >Back Home</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+var show = function(id) {
+	$(id).style.display ='block';
+}
+var hide = function(id) {
+	$(id).style.display ='none';
+}
+</script>
+
+
+
+<div class="popup" id="popup2">
+  <p>Congrats! <br>You have won </p>
+ 
+  <div id="container">
+    <div>  <a href="#" onclick="alert('Come Back Tomorroe!')">Try again!</a>
+    </div>
+    <div></div>
+    <div>  <a href="#" onclick='document.getElementById("popup2").style.display ="block";' style="float: center" >Ok</a>
+    </div>
+  </div>
+
+</div>
+
+
+<!--- Start of Footer --->
+<div class="footer">
+  <p>© 2022 illuminatSG </p>
+</div>
+<!--- End of Footer --->
+
+<script src="./script.js"></script>
+</body>
+</html>
