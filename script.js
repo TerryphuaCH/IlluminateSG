@@ -416,8 +416,10 @@ function authenticateUser(that) {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status == 200) {
             var userData = JSON.parse(xhr.responseText);
             var username = that.username.value;
-            if (username in userData && userData[username] == that.password.value) return window.location.replace("http://www.google.com");
-            else return alert("Invalid username/password combination!");
+            if (username in userData && userData[username] == that.password.value) {
+              alert("Login Successful!");
+              return window.location.replace("http://www.google.com");
+          } else return alert("Invalid username/password combination!");
         }
     };
 
