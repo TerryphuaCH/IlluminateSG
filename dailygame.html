@@ -3,37 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IlluminateSG|Daily Spin!</title>
+    <title>Daily Spin!</title>
     <link rel="stylesheet" href="./dailygame.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 <body>
 
-  <!--- Start of Navbar --->
-  <nav>
-    <div style="font-family:'Perpetua Titling MT'" class="logo"><h1><img src="images/logo.png" width="200" height="50"></h1></div>
-    <div class="openMenu"><i class="fa fa-bars"></i></div>
-    <ul style="font-family:'Perpetua Titling MT'" class="mainMenu">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="play.html">Play</a></li>
-      <li><a href="profile.html">Places</a></li>
-      <li><a href="forum.html">Profile</a></li>
-      <div class="closeMenu"><i class="fa fa-times"></i></div>
-      <span class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-github"></i>
-          </span>
-      </ul>
-    </nav>
+<!--- Start of Navbar --->
+<nav>
+  <div style="font-family:'Perpetua Titling MT'" class="logo"><h1><img src="images/logo.png" width="200" height="50"></h1></div>
+  <div class="openMenu"><i class="fa fa-bars"></i></div>
+  <ul style="font-family:'Perpetua Titling MT'" class="mainMenu">
+    <li><a href="home.html" >Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="play.html" >Play</a></li>
+    <li><a href="profile.html">Places</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <div class="closeMenu"><i class="fa fa-times"></i></div>
+    <span class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-github"></i>
+        </span>
+    </ul>
+  </nav>
 <!--- End of Navbar --->
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 
 <style>
+
+canvas {
+    padding-left: 400;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+}
+.outer {
+    display: flex;
+    justify-content: center
+}
   .popup {
   display: none;
   position: fixed;
@@ -76,6 +89,9 @@
   z-index: -1;
 }
 
+
+
+
 a,
 a:visited {
   text-decoration: none;
@@ -108,7 +124,6 @@ p+p+p {
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap;              /* default value; can be omitted */
   justify-content: space-between; /* switched from default (flex-start, see below) */
-  
 }
 
 </style>
@@ -116,20 +131,23 @@ p+p+p {
 <script src="embed.js"></script>
 <script>
   datas = {
-    1: "1",
-    2: "2",
-    3: "3",
-    4: "4",
-    5: "5",
-    6: "6",
-    7: "7",
+    1: "20% off GRAB RIDE",
+    2: "Try again",
+    3: "$5 Lazada Voucher",
+    4: "Try again",
+    5: "Try again",
+    6: "$20 off GRAB FOOD",
+    7: "",
   };
 </script>
 
 
-
-<div id="datas" style="float: center" >
-<ul></div>
+<div class= >
+</div>
+<div id="datas" class="outer" style="float: center"  >
+  
+  <h1><br><br>Welcome Back to your Daily SPIN!<br><br><br></h1>
+  <ul></div>
 
 <div id="wheel">
   <canvas id="canvas" width="1000" height="600"></canvas>
@@ -142,13 +160,14 @@ p+p+p {
 
 
 <div class="popup" id="popup2">
-  <p>Congrats! <br>You have won </p>
+  <p>Congrats! You have won!
+  <br><a href="profile.html">Check your rewards here!</a> </p>
  
   <div id="container">
-    <div>  <a href="#" onclick="alert('Come back tomrorow!')">Try again!</a>
+    <div>  <a href="home.html" onclick="alert('Come back tomrorow!')">Try again!</a>
     </div>
     <div></div>
-    <div>  <a href="https://www.google.com/" onclick='document.getElementById("popup2").style.display ="block";' style="float: center" >Back Home</a>
+    <div>  <a href="home.html" onclick='document.getElementById("popup2").style.display ="block";' style="float: center" >Ok</a>
     </div>
   </div>
 
@@ -165,27 +184,12 @@ var hide = function(id) {
 </script>
 
 
-
-<div class="popup" id="popup2">
-  <p>Congrats! <br>You have won </p>
- 
-  <div id="container">
-    <div>  <a href="#" onclick="alert('Come Back Tomorroe!')">Try again!</a>
-    </div>
-    <div></div>
-    <div>  <a href="#" onclick='document.getElementById("popup2").style.display ="block";' style="float: center" >Ok</a>
-    </div>
-  </div>
-
-</div>
-
-
 <!--- Start of Footer --->
 <div class="footer">
   <p>© 2022 illuminatSG </p>
 </div>
 <!--- End of Footer --->
 
-<script src="./script.js"></script>
+<script src="./dailygame.js"></script>
 </body>
 </html>
