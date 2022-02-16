@@ -45,7 +45,7 @@ let quizArray = [
       "Where is this? (Hint North side of Singapore)",
     options: ["Woodlands", "Sentosa", "Yishun", "Dover", "Sengkang"],
     correct: 0,
-    image: "./trivia_images/Q1.jpg",
+    image: "trivia_images/Q1.jpg",
   },
   {
     question: "Is this in Singapore?",
@@ -54,7 +54,7 @@ let quizArray = [
       "No",
     ],
     correct: 0,
-    image: "./trivia_images/Q2.jpg",
+    image: "trivia_images/Q2.jpg",
   },
   {
     question:
@@ -69,7 +69,7 @@ let quizArray = [
       "SMU",
     ],
     correct: 0,
-    image: "./trivia_images/Q2.jpg",
+    image: "trivia_images/Q2.jpg",
   },
   {
     question: "How many Merlions are there in Singapore?",
@@ -80,7 +80,7 @@ let quizArray = [
       "13",
     ],
     correct: 0,
-    image: "./trivia_images/Q3.jpg",
+    image: "trivia_images/Q3.jpg",
   },
   {
     question:
@@ -92,7 +92,7 @@ let quizArray = [
       "Sentosa",
     ],
     correct: 0,
-    image: "./trivia_images/Q5.jpg",
+    image: "trivia_images/Q5.jpg",
   },
   
   {
@@ -103,7 +103,7 @@ let quizArray = [
       "No",
     ],
     correct: 0,
-    image: "./trivia_images/Q6.jpg",
+    image: "trivia_images/Q6.jpg",
   },
   {
   question:
@@ -118,7 +118,7 @@ let quizArray = [
       "East",
     ],
     correct: 0,
-    image: "./trivia_images/Q6.jpg",
+    image: "trivia_images/Q6.jpg",
   },
 
 ];
