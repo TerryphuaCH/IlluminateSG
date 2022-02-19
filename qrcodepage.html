@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery HTML5 QR Code Scanner using Instascan JS Example - ItSolutionStuff.com</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!--- Start of Navbar --->
+  <nav>
+    <div style="font-family:'Perpetua Titling MT'" class="logo"><h1>IlluminateSG</h1></div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul style="font-family:'Perpetua Titling MT'" class="mainMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Play</a></li>
+      <li><a href="#">Places</a></li>
+      <li><a href="#">Profile</a></li>
+      <div class="closeMenu"><i class="fa fa-times"></i></div>
+      <span class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+          </span>
+      </ul>
+    </nav>
+<!--- End of Navbar --->  
+  
+
+    </br>
+    </br>
+    </br>
+    <h1>iLLUMINATE HERE!</h1> 
+    </br>
+    </br>
+
+
+    <video id="preview" style="display: block; margin-left: auto; margin-right: auto;"></video>
+    <script type="text/javascript">
+      let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      scanner.addListener('scan', function (content) {
+        alert(content);
+      });
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          scanner.start(cameras[0]);
+        } else {
+          console.error('No cameras found.');
+        }
+      }).catch(function (e) {
+        console.error(e);
+      });
+    </script>
+   
+</body>
+</html>
