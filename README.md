@@ -60,22 +60,25 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JavaScript](https://www.javascript.com/)
     - The project uses **JavaScript** to make the content interactive.
 
-- [API Postman](https://www.postman.com/)
-    - The project uses **API Postman** to allow users to log into the website.
+- [Postman](https://www.postman.com/)
+    - USed Postamn to query to Firebase API
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [FireBase](https://firebase.google.com/)
+    - Used Postamn to query to Firebase API (for login)
 
 
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Login check:
+    1. Go to the "login" page
+    2. Try to submit the username and password, an error message about the required fields appears
+    3. Try to submit the invalid email address and verify that a relevant error message appears
+    4. Try to submit the username and password with all inputs valid and verify that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -98,6 +101,39 @@ Old Habits Boutique & Cafe - https://www.google.com/url?sa=i&url=https%3A%2F%2Fs
 
 Ang Mo Kio - Bishan Park - https://www.google.com/url?sa=i&url=https%3A%2F%2Fthesmartlocal.com%2Fread%2Fbishan-ang-mo-kio-park%2F&psig=AOvVaw27Dp-nj7670kcynNbbuypL&ust=1645111827622000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIif06PFhPYCFQAAAAAdAAAAABAD
 
+sang nila utama - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.littledayout.com%2Fthe-arrivals-sang-nila-utama-statues-raffles-along-the-singapore-river%2F&psig=AOvVaw28-uWCdxu7uAvnLbWtX5uP&ust=1645467097631000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCKjtjeLwjvYCFQAAAAAdAAAAABAI
+
+**About Page**
+WaterBike SG - https://www.waterbike.sg/gallery?pgid=kszixlbk-8a13cbd5-bd84-456d-8dbf-458ce646872e
+
+Old Habits Boutique & Cafe - https://www.google.com/url?sa=i&url=https%3A%2F%2Fsingaporefoodie.com%2Fold-habits-vintage-cafe-in-singapore%2F&psig=AOvVaw0TQEvQJa-f3iP5_J245wke&ust=1645111168197000&source=images&cd=vfe&ved=2ahUKEwicgdLnwoT2AhXgRGwGHValBB4QjRx6BAgAEAk
+
+Citrus by the Pool - https://www.shaunchng.com/food/fusion/burgers-at-citrus-by-the-pool-woodlands
+
+Island Hopping - https://unexploredfootsteps.com/2020/01/29/island-hopping-langkawi/
+
+**Play Page**
+Present - https://www.artofit.org/image-gallery/670684569506200518/love-pink-gift-box-bow-box-square-lover-png-and-vector-with-transparent-background-for-free-download/
+
+Guess the location - ownself do
+
+Roullete - https://www.pngfind.com/mpng/hwoRJoT_roulette-roulette-logo-hd-png-download/
+
+Coming Soon - http://clipart-library.com/clip-art/14-142114_coming-soon-logo-png-coming-soon-png-black.htm
+
+**guess the location Page**
+Citrus by the Pool - https://www.shaunchng.com/food/fusion/burgers-at-citrus-by-the-pool-woodlands
+
+waterfall - https://www.sassymamasg.com/yunnan-garden-park/
+
+Merlion - https://thenewageparents.com/how-many-merlions-are-there-in-singapore/
+
+restaurant - https://girlstyle.com/sg/article/91222/2d-cafe-monochrome-singapore
+
+**Profile Page**
+insert image here - https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/1200px--Insert_image_here-.svg.png
+
+profile pic - https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png
 
 - **Rewards Page** images were from
 Grab logo - https://assets.grab.com/wp-content/uploads/media/ir/logo/Grab_Final_Master_Logo_2021_RGB_(green).png
