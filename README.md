@@ -80,6 +80,25 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the invalid email address and verify that a relevant error message appears
     4. Try to submit the username and password with all inputs valid and verify that a success message appears.
 
+
+2. Lottie check:
+    1. loading page when you login as user.
+    2. While claiming rewards, there should be a reward page popping up as a external page.
+    3. congrats message when you have claimed your rewards.
+    4. When you have claimed the reward, it will have pop up with lottie.
+
+3. Linking og pages:
+    1. all pages are linked accordingly to each other.
+
+4. Wheel of fortune:
+    1. wheel is functioning and has pop up when you get the rewards.
+    2. probability of the wheel is randomise.
+
+5. Firebase:
+    1. used Postman to query to firbase api for the login page and it is functioning.
+
+6. 
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -87,10 +106,6 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
 - **Home Page** images were from
 Sunset over MBS - https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsingapore&psig=AOvVaw0kmPGxiCA-qXuL7r4lY4rX&ust=1645110603267000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMipk9vAhPYCFQAAAAAdAAAAABAD
