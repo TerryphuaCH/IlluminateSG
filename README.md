@@ -97,7 +97,6 @@ For any scenarios that have not been automated, test the user stories manually a
 5. Firebase:
     1. used Postman to query to firbase api for the login page and it is functioning.
 
-6. 
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
