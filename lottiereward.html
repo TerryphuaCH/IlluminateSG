@@ -1,0 +1,28 @@
+<html>
+    <body>
+
+<p allign="center" font-size="200px"> Loading, redirecting you in 5 secs. </p>
+
+<body style="background-color:powderblue;"></body>
+
+
+
+    <div id="animContainer"> </div>
+  
+  <!-- Scripts -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js'></script> <!-- path of bodymovin library-->
+  <script  src="./script.js"></script>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='viewreward.html'
+        }, 5000);
+        var animation = bodymovin.loadAnimation({
+  container: document.getElementById('animContainer'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'https://assets7.lottiefiles.com/packages/lf20_slGFhN.json' // lottie file path
+})
+    </script>
+</body>
+</html>

@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #eedfcc;
+  background: #e0a799;
   color: #555555;
   font-size: 14px;
 }
@@ -206,11 +206,7 @@ html {
 
 
 
-#section2 {
-  height: 600px;
-  width: 100%;
-  background-color: yellow;
-}
+
 
 /* Float four columns side by side */
 .column {
