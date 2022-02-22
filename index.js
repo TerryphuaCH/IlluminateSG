@@ -14,7 +14,7 @@ function authenticateUser(that) {
             var username = that.username.value;
             if (username in userData && userData[username] == that.password.value) {
                 alert("Login Successful!");
-                return window.location.replace("home.html");
+                return window.location.replace("lottie.html");
             } else return alert("Invalid username/password combination!");
         }
     };
